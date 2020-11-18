@@ -6,7 +6,7 @@ const typeDefs = require('./graphql/typeDefs') // GraphQL Type Definition
 const resolvers = require('./graphql/resolvers') // GraphQL Resolvers
 
 // PORT
-const PORT = process.env.port || 5000
+const PORT = process.env.PORT || 5000
 
 // Define apollo server
 const server = new ApolloServer({
